@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>webSocket小Demo</title>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<input type="text" id="msg">
+				<button onclick="onOpen()">点击打开连接</button>
+				<button onclick="sendMsg()">发送报文</button>
+				<button onclick="onClose()">点击打开连接</button>
+			</div>
+		</div>
+		<script>
+			var ws;
+			onOpen()
+
+			function sendMsg() {
+				let msg = document.getElementById('msg').value;
+				ws.send(msg);
+			}
+
+			function onOpen() {
+				ws = new WebSocket('ws://localhost:9000/ws/4214234334');
+				ws.onopen = () => {
+					console.log('状态打开...');
+				}
+				ws.onmessage = (res) => {
+					console.log("数据：", res);
+				};
+				ws.onclose = () => {
+					console.log('状态关闭...');
+				}
+			}
+
+			function onClose() {
+                console.log(ws.readyState)
+				ws.close()
+			}
+		</script>
+	</body>
+

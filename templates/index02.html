@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static',path='css/bootstrap.min.css') }}" rel="stylesheet" >
+    <link href="{{ url_for('static',path='css/bootstrap-switch.min.css') }}" rel="stylesheet" >
+
+    <link href="{{ url_for('static',path='css/diy.css') }}" rel="stylesheet" >
+
+    <script src="{{ url_for('static',path='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',path='js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ url_for('static',path='js/bootstrap-switch.min.js') }}"></script>
+
+    <title>抢&nbsp单</title>
+</head>
+<body>
+<div class="base-form">
+    <form>
+        <h4 style="text-align: center">附近订单</h4>
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Headers</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputHeaders" autocomplete="off">
+        </div>
+      </div>
+            <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">查询间隔</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputTime3" autocomplete="off">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">订单里程</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputRadius3" autocomplete="off">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">车型配置</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputCarConfig3"  placeholder="多个请空格间隔" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">是否确认</label>
+        <div class="col-sm-10">
+          <input type="checkbox" class="form-control" name="switch" id="inputConfirm3">
+        </div>
+      </div>
+        <br>
+        <hr>
+       <h4 style="text-align: center">回头车订单</h4><br>
+        <div class="row-cols-lg-3 row">
+        <select class="selectpicker form-control" data-hide-disabled="true">
+            <option selected hidden>省</option>
+        </select>
+                    <select class="selectpicker form-control" data-hide-disabled="true">
+            <option selected hidden>市</option>
+        </select>
+                    <select class="selectpicker form-control" data-hide-disabled="true">
+            <option selected hidden>区</option>
+        </select>
+       </div>
+        <br>
+
+        <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">是否开启</label>
+        <div class="col-sm-10">
+          <input type="checkbox" class="form-control" name="switch" id="inputConfirm3">
+        </div>
+      </div>
+      <div class="form-group row" style="text-align: center;margin-left: 70px">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary" id="submit-button" onclick="connect()" >开 &nbsp始 &nbsp抢 &nbsp单</button>
+        </div>
+      </div>
+
+    </form>
+</div>
+<ul id='messages'>
+</ul>
+</body>
+<style>
+
+</style>
+<script>
+    function sleep(number){
+        var now = new Date();
+        var exitTime = now.getTime() + number * 1000;
+        while (true) {
+            now = new Date();
+            if(now.getTime() > exitTime)
+            return
+            }
+    }
+    function connect() {
+        console.log('WS start')
+        let USER_UID = "{{ uid }}"
+        let ws = null;
+        let nickname = document.getElementById('inputHeaders');
+        if(nickname.value.trim()===''){return;}
+        console.log('WS start1')
+        sleep(1)
+        ws = new WebSocket('ws://localhost:9000/ws/'+USER_UID);
+        sleep(1)
+        console.log('WS start2')
+        sleep(1)
+        //发送消息
+        ws.onopen = function () {
+            nickname.readOnly = true;
+            document.getElementById('submit-button').disabled = true;
+            console.log('WS open')
+            ws.send('第一次连接');
+            setInterval(function(){
+                 var message = {
+                     "type": "t10010",
+                     "service":"运行心跳业务一次 =="+ new Date()
+                 };
+                 // JSON.stringify()的作用是将 JavaScript 对象转换为 JSON 字符串
+                 //而JSON.parse()可以将JSON字符串转为一个对象。
+                 console.log("心跳一次");
+                 ws.send(JSON.stringify(message));//启动心跳
+            },900)
+
+
+        };
+        //接收消息
+        ws.onmessage = function (event) {
+             console.log(event.data);
+             sleep(1)
+            var messages = document.getElementById('messages');
+            var message = document.createElement('li');
+            var content = document.createTextNode(event.data);
+            message.appendChild(content);
+            messages.appendChild(message);
+        };
+        //关闭
+        ws.onclose = function () {
+            console.log('WS close');
+        };
+        //异常
+        ws.onerror = function (event) {
+            console.log(event.data);
+        };
+    }
+
+    function disconnect() {
+        ws.close()
+    }
+
+$("[name='switch']").bootstrapSwitch({
+
+    size : "mini",    // 设置控件大小,从小到大  (mini/small/normal/large)
+    // 当开关状态改变时触发
+
+});
+</script>
+</html>

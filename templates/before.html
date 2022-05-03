@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>websocket</title>
+</head>
+<body>
+<h1>WebSocket Chat</h1>
+<input type="text" id="nickname" autocomplete="off" placeholder="input your nickanme"/>
+<button onclick="connect(event)" id="connect_btn">connect</button>
+<button onclick="disconnect(event)">disconnect</button>
+<form action="" onsubmit="sendMessage(event)">
+    <input type="text" id="messageText" autocomplete="off"/>
+    <button>Send</button>
+</form>
+<ul id='messages'>
+</ul>
+<script>
+    var ws = null;
+    var nickname = document.getElementById('nickname');
+
+    function connect() {
+        if(nickname.value.trim()==''){return;}
+        ws = new WebSocket(`ws://localhost:9000/ws/` + nickname.value);
+        ws.onopen = function () {
+            nickname.readOnly = true;
+            document.getElementById('connect_btn').disabled = true;
+            console.log('WS open')
+        };
+        ws.onclose = function () {
+            console.log('WS close');
+        };
+        ws.onerror = function (event) {
+            console.log(event.data);
+        };
+        ws.onmessage = function (event) {
+            var messages = document.getElementById('messages');
+            var message = document.createElement('li');
+            var content = document.createTextNode(event.data);
+            message.appendChild(content);
+            messages.appendChild(message);
+        };
+    }
+
+    function sendMessage(event) {
+        var input = document.getElementById("messageText");
+        ws.send(input.value);
+        input.value = '';
+        event.preventDefault();
+    }
+
+    function disconnect() {
+        ws.close()
+    }
+</script>
+</body>
+</html>

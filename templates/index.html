@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="{{ url_for("static",path="image/qiang.svg")}}"/>
+
+    <link href="{{ url_for('static',path='css/bootstrap.min.css') }}" rel="stylesheet" >
+    <link href="{{ url_for('static',path='css/bootstrap-switch.min.css') }}" rel="stylesheet" >
+
+    <link href="{{ url_for('static',path='css/diy.css') }}" rel="stylesheet" >
+
+    <script src="{{ url_for('static',path='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',path='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static',path='js/form_submit.js') }}"></script>
+
+
+    <script src="{{ url_for('static',path='js/bootstrap-switch.min.js') }}"></script>
+
+    <title>抢&nbsp单</title>
+</head>
+<body>
+<audio id="audio_display" controls="controls" style="display: none">
+  <source src="http://music.163.com/song/media/outer/url?id=1308256434" type="audio/mpeg" />
+</audio>
+<div class="base-form">
+    <form name="base_form1" id="base_form_id">
+        <h4 style="text-align: center">附近订单</h4>
+      <div class="form-group row">
+        <label for="inputHeaders" class="col-sm-2 col-form-label">Headers</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="inputHeaders" id="inputHeaders" autocomplete="off">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="code" class="col-sm-2 col-form-label">授权码</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="code" id="code" autocomplete="off">
+        </div>
+      </div>
+            <div class="form-group row">
+        <label for="inputTime" class="col-sm-2 col-form-label">查询间隔</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="inputTime" id="inputTime" value="5" autocomplete="off">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="inputRadius" class="col-sm-2 col-form-label">订单里程</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" name="inputRadius" id="inputRadius" value="510" autocomplete="off">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="inputCarConfig" class="col-sm-2 col-form-label">车型配置</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="inputCarConfig" id="inputCarConfig"  placeholder="多个请 空格隔开" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputConfirm" class="col-sm-2 col-form-label">是否确认</label>
+        <div class="col-sm-10">
+          <input type="checkbox" class="form-control" id="inputConfirm">
+        </div>
+      </div>
+              <div class="form-group row">
+        <label for="inputConfirm_mobile" class="col-sm-2 col-form-label">无需电联</label>
+        <div class="col-sm-10">
+          <input type="checkbox" class="form-control" id="inputConfirm_mobile">
+        </div>
+      </div>
+        <br>
+        <hr>
+       <h4 style="text-align: center">回头车订单</h4><br>
+        <div class="row-cols-lg-4 row">
+             <label for="form_province" class="col-sm-10 col-form-label" style="width: 105px">出发地</label>
+        <select class="select picker form-control" name="form_province" id="form_province" data-hide-disabled="true">
+            <option selected hidden disabled>省</option>
+        </select>
+                    <select class="select picker form-control" name="form_city" id="form_city" data-hide-disabled="true">
+            <option selected hidden disabled>市</option>
+        </select>
+                    <select class="select picker form-control" name="form_area" id="form_area" data-hide-disabled="true">
+            <option selected hidden disabled>区</option>
+        </select>
+       </div>
+        <br>
+        <div class="row-cols-lg-4 row">
+             <label for="form_province2" class="col-sm-2 col-form-label" style="width: 105px">目的地</label>
+            <select class="select picker form-control" name="form_province2" id="form_province2" data-hide-disabled="true">
+                <option selected hidden disabled>省</option>
+            </select>
+                        <select class="select picker form-control" name="form_city2" id="form_city2" data-hide-disabled="true">
+                <option selected hidden disabled>市</option>
+            </select>
+                        <select class="select picker form-control" name="form_area2" id="form_area2" data-hide-disabled="true">
+                <option selected hidden disabled>区</option>
+        </select>
+       </div>
+        <br>
+        <div class="form-group row">
+        <label for="inputConfirmOpen" class="col-sm-2 col-form-label">是否开启</label>
+        <div class="col-sm-10">
+          <input type="checkbox" class="form-control" id="inputConfirmOpen">
+        </div>
+      </div>
+      <div class="form-group row" style="text-align: center;margin-left: 70px">
+        <div class="col-sm-10">
+          <button type="button" class="btn btn-primary" id="connect-button" onclick="connect()" >开 &nbsp始 &nbsp抢 &nbsp单</button>
+          <button type="button" class="btn btn-primary" id="cancel-button" onclick="cancel_connect()" style="margin-left: 50px;display: none">取 &nbsp 消</button>
+        </div>
+      </div>
+
+    </form>
+</div>
+<ul id='messages'>
+</ul>
+<textarea id='text_value' style="display: none">{{ cities }}</textarea>
+
+
+<!-- Modal data-dismiss="modal"-->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">详细信息 :</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal_body_id">
+
+      </div>
+      <div class="modal-footer" id="modal_footer_id">
+        <button type="button" class="btn btn-secondary" onclick="cancel_my_model()">取消</button>
+        <button type="button" class="btn btn-primary" onclick="confirm_my_model()">确认</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="form-group_select">
+    <label for="exampleFormControlSelect2">进度显示:</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2" style="height: 400px">
+    </select>
+  </div>
+</body>
+<style>
+
+</style>
+<script>
+
+    $('#inputConfirm').bootstrapSwitch({
+	    onText:"ON",
+	    offText:"OFF",
+	    onColor:"success",
+	    offColor:"danger",
+	    size:"small",
+        onSwitchChange:function(event,state){
+	        if(state===true){
+	           console.log('已打开');
+	        }else{
+	           console.log('已关闭');
+	        }
+	    }
+	});
+
+    $('#inputConfirm_mobile').bootstrapSwitch({
+	    onText:"ON",
+	    offText:"OFF",
+	    onColor:"success",
+	    offColor:"danger",
+	    size:"small",
+        onSwitchChange:function(event,state){
+	        if(state===true){
+	           console.log('已打开');
+	        }else{
+	           console.log('已关闭');
+	        }
+	    }
+	});
+
+	$('#inputConfirmOpen').bootstrapSwitch({
+	    onText:"ON",
+	    offText:"OFF",
+	    onColor:"success",
+	    offColor:"danger",
+	    size:"small",
+        onSwitchChange:function(event,state){
+	        if(state===true){
+	           console.log('已打开');
+	        }else{
+	           console.log('已关闭');
+	        }
+	    }
+	});
+
+    var ws;
+    let but_obj = document.getElementById('connect-button')
+    function sleep(number){
+        var now = new Date();
+        var exitTime = now.getTime() + number * 1000;
+        while (true) {
+            now = new Date();
+            if(now.getTime() > exitTime)
+            return
+            }
+    }
+    function connect() {
+        $('#exampleFormControlSelect2').empty()
+        let inputHeaders = document.getElementById("inputHeaders");
+        let inputCarConfig = document.getElementById("inputCarConfig");
+        let form_province = document.getElementById("form_province");
+        let form_province2 = document.getElementById("form_province2");
+        let inputConfirmOpen =  $('#inputConfirmOpen').bootstrapSwitch('state');
+
+        if(inputConfirmOpen){
+            if (inputHeaders.value.trim() === '' || inputCarConfig.value.trim().length < 1
+            || form_province.value === '省' || form_province2.value === '省') {
+                return alert('存在未填字段！！！\n车型配置两字以上！！！');
+            }
+        }else if (inputHeaders.value.trim() === '' || inputCarConfig.value.trim().length < 1 ){
+                return alert('存在未填字段！！！\n车型配置两字以上！！！');
+            }
+        let wsUrl = 'ws://localhost:9000/ws/{{ uid }}'
+        console.log(wsUrl)
+        let form_data = getFormData("base_form_id")
+
+        try {
+
+            ws = new WebSocket(wsUrl);
+
+            inputHeaders.readOnly = true;
+            but_obj.disabled = true;
+            but_obj.innerHTML = "抢单中...";
+            document.title = "抢单中...";
+            document.getElementById('cancel-button').style.display='inline-block'
+
+            init(wsUrl,form_data);
+
+        } catch (e) {
+            console.log('catch');
+            //reconnect(wsUrl);
+
+        }
+
+    }
+
+    function init(wsUrl,formData) {
+        //发送
+        sleep(1)
+
+        ws.onopen = function () {
+            console.log("连接服务器成功");
+            ws.send(JSON.stringify({"status":10001,"msg":"第一条数据","formData":JSON.parse(formData)}))
+
+            //心跳检测重置
+            //heartCheck.start();
+        };
+
+        //接收
+        ws.onmessage = function (event) {
+
+            let json_data = $.parseJSON(event.data)
+            if(json_data['status'] === 10002){ // 接收服务器心跳包
+                 console.log(json_data['msg']);
+            } else if (json_data['status'] === 11000){ // 接收锁单成功后 确认信息
+                console.log(json_data['msg']);
+                alert_notice_confirm(json_data['data'])
+
+            }else if (json_data['status'] === 12000){ // 接收锁单成功后 取消信息
+                console.log(json_data['msg']);
+                alert_notice_confirm(json_data['data'])
+
+            } else if(json_data['status'] === 10500){
+                let log_messages = document.getElementById('exampleFormControlSelect2')
+                log_messages.options.add(new Option(json_data['msg'],1))
+                console.log(json_data['msg']);
+            } else if(json_data['status'] === 100404){
+
+                ws.close()
+                console.log(json_data['msg']);}
+            //拿到任何消息都说明当前连接是正常的
+            //heartCheck.start();
+        }
+
+
+        ws.onclose = function (event) {
+            cancel_connect()
+            event.close()
+            console.log('链接关闭');
+        };
+        ws.onerror = function () {
+
+            alert("连接异常！！！")
+            cancel_connect()
+            console.log('发生异常了');
+        };
+
+    }
+
+        //心跳检测
+    let heartCheck = {
+        timeout: 3000, //每隔30秒发送心跳
+        severTimeout: 200000, //服务端超时时间
+        timeoutObj: null,
+        serverTimeoutObj: null,
+        start: function () {
+            let self = this;
+            this.timeoutObj && clearTimeout(this.timeoutObj);
+            this.serverTimeoutObj && clearTimeout(this.serverTimeoutObj);
+            this.timeoutObj = setTimeout(function () {
+                //这里发送一个心跳，后端收到后，返回一个心跳消息，
+                //onmessage拿到返回的心跳就说明连接正常
+                console.log("心跳包")
+                ws.send(JSON.stringify({"status":20001,"msg":"客户端心跳包"})); // 心跳包
+                //计算答复的超时时间
+                self.serverTimeoutObj = setTimeout(function () {
+                    ws.close(1000);
+                }, self.severTimeout);
+            }, this.timeout)
+        }
+
+
+    }
+    function cancel_connect(){
+        console.log('取消')
+        but_obj.disabled = false;
+        but_obj.innerHTML = "开 &nbsp始 &nbsp抢 &nbsp单";
+        document.title = '抢 单';
+        document.getElementById('cancel-button').style.display='none'
+        document.getElementById("inputHeaders").readOnly=false
+        document.getElementById('audio_display').pause()
+        console.log(ws.readyState)
+
+        console.log(ws)
+        ws.close();
+
+
+
+
+    }
+
+window.onbeforeunload = function() {
+    ws.onclose = function () {}; // disable onclose handler first
+    ws.close();
+};
+
+
+</script>
+    <script src="{{ url_for('static',path='js/diy.js') }}"></script>
+</html>

@@ -1,0 +1,120 @@
+{
+    "data": {
+        "list": [
+            {
+                "carpool": 0,
+                "create_time": 1649674140,
+                "description": "",
+                "distance": 0,
+                "enabled_SXB": 0,
+                "extra_requires": [],
+                "from_location": {
+                    "address": "和乔大厦C座",
+                    "city": {
+                        "id": 110100,
+                        "name": "北京市"
+                    },
+                    "county": {
+                        "id": 110105,
+                        "name": "朝阳区"
+                    },
+                    "latitude": 39.913193,
+                    "longitude": 116.471506,
+                    "province": {
+                        "id": 110000,
+                        "name": "北京市"
+                    },
+                    "town": {
+                        "id": 110105001,
+                        "name": "建外街道"
+                    }
+                },
+                "goods_create_time": "19:08更新",
+                "goods_level": 2,
+                "goods_name": "普货",
+                "goods_type": 5,
+                "goods_volume": 2,
+                "goods_weight": 0.5,
+                "haul_dist": 2,
+                "id": 49996194,
+                "is_booking": 0,
+                "is_called": 0,
+                "is_on_contact": 0,
+                "is_phone_discuss": 0,
+                "is_rightnow": 0,
+                "is_system_price": 1,
+                "is_vip_goods": 0,
+                "loading_time_is_realtime": 0,
+                "loading_time_period_begin": 1649674800,
+                "loading_time_period_end": 1649678400,
+                "mileage": "",
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "payment_method": 1,
+                "price": {
+                    "bonus": 0,
+                    "is_phone_discuss": 0,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "price": 160,
+                    "price_addition": 0,
+                    "price_expect": 160,
+                    "price_recommend": 160,
+                    "price_type": 1
+                },
+                "price_addition": 0,
+                "price_expect": 160,
+                "score": [],
+                "sort_score": {},
+                "status": 1,
+                "time": "今天 19:00-20:00",
+                "to_location": {
+                    "address": "北京市顺义区金马工业区北路圣士鑫",
+                    "city": {
+                        "id": 110100,
+                        "name": "北京市"
+                    },
+                    "county": {
+                        "id": 110113,
+                        "name": "顺义区"
+                    },
+                    "latitude": 40.137114,
+                    "longitude": 116.584121,
+                    "province": {
+                        "id": 110000,
+                        "name": "北京市"
+                    },
+                    "town": {
+                        "id": 110113101,
+                        "name": "高丽营镇"
+                    }
+                },
+                "total_called": 0,
+                "total_user_called": 0,
+                "user_id": 3782189,
+                "vehicle_description": "中面包车",
+                "vip_suggestion": {
+                    "page": "",
+                    "params": {
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_popup": "",
+                        "prior_timer": 0,
+                        "prior_title": "",
+                        "title": "会员优先",
+                        "vip_type": 1
+                    },
+                    "type": "web"
+                }
+            }
+        ],
+        "next": 0,
+        "parameters": false,
+        "suggestion": {},
+        "version": ""
+    },
+    "msg": "成功",
+    "status": 100000
+}
