@@ -1,0 +1,2478 @@
+{
+    "data": {
+        "suggestion": {},
+        "version": "",
+        "list": [
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668052800,
+                "loading_time_period_end": 1668074400,
+                "id": 62935513,
+                "goods_weight": 0.1,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:22更新",
+                "description": "一个小包",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "已有会员洽谈中",
+                        "vip_type": 2,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 1,
+                "create_time": 1668068376,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 5,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "创优绣花厂",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.253229,
+                    "town": {
+                        "id": 440111018,
+                        "name": "白云湖街道"
+                    },
+                    "latitude": 23.213121,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山灏星服饰有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.081795,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.170594,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 95,
+                    "price": 95,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 95,
+                    "price_without_peak_time_fee": 95
+                },
+                "status": 1,
+                "goods_name": "服装",
+                "is_booking": 0,
+                "user_id": 1383730,
+                "goods_volume": 1,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 12:00-18:00",
+                "price_expect": 95
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668068299,
+                "loading_time_period_end": 1668068899,
+                "id": 62935413,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:21更新",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068313,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "丽新怡苑(西南门)",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.176845,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.115482,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "巧俏服饰店",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.101627,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.139723,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 49,
+                    "price": 49,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 49,
+                    "price_without_peak_time_fee": 49
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 3130545,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:28",
+                "price_expect": 49
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668064408,
+                "loading_time_period_end": 1668065008,
+                "id": 62928491,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "小面包车、全拆座",
+                "goods_create_time": "15:16更新",
+                "description": "车长两米五",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668064423,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "鸿星楼",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.169149,
+                    "town": {
+                        "id": 440605100,
+                        "name": "里水镇"
+                    },
+                    "latitude": 23.179198,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山市华戈塑料五金制品有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.117248,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.149499,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 58,
+                    "price": 58,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 58,
+                    "price_without_peak_time_fee": 58
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 4429394,
+                "goods_volume": 0,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "1",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 15:23",
+                "price_expect": 58
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668067200,
+                "loading_time_period_end": 1668070800,
+                "id": 62934085,
+                "goods_weight": 0.9,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:10更新",
+                "description": "24小时核酸",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668067500,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 5,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 13,
+                "to_location": {
+                    "address": "槎龙果品市场",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.228707,
+                    "town": {
+                        "id": 440111003,
+                        "name": "松洲街道"
+                    },
+                    "latitude": 23.169276,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "豪捷冷库",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.119382,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.17991,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 80,
+                    "price": 80,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 13,
+                    "price_recommend": 67,
+                    "price_without_peak_time_fee": 80
+                },
+                "status": 1,
+                "goods_name": "食品",
+                "is_booking": 0,
+                "user_id": 4084854,
+                "goods_volume": 1.8,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 16:00-17:00",
+                "price_expect": 80
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668064451,
+                "loading_time_period_end": 1668065051,
+                "id": 62928562,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "15:16更新",
+                "description": "3方",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668064451,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "安发货运市场",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.206407,
+                    "town": {
+                        "id": 440111019,
+                        "name": "石门街道"
+                    },
+                    "latitude": 23.227068,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "南海波丽塑料包装有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.081101,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.191419,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 65,
+                    "price": 65,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 65,
+                    "price_without_peak_time_fee": 65
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 973071,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 15:24",
+                "price_expect": 65
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668068035,
+                "loading_time_period_end": 1668068635,
+                "id": 62935010,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "16:22更新",
+                "description": "六点前必须送到",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068049,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "广东省佛山市南海区狮山镇佛山市凯科金属装饰材料有限公司",
+                    "广东省广州市荔湾区石围塘街道塞坝路28号"
+                ],
+                "price_addition": 5,
+                "to_location": {
+                    "address": "广西外贸塞坝口仓库",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440103,
+                        "name": "荔湾区"
+                    },
+                    "longitude": 113.221012,
+                    "town": {
+                        "id": 440103017,
+                        "name": "石围塘街道"
+                    },
+                    "latitude": 23.111667,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山市凯科金属装饰材料有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.121204,
+                    "town": {
+                        "id": 440605106,
+                        "name": "狮山镇"
+                    },
+                    "latitude": 23.187566,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 70,
+                    "price": 70,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 5,
+                    "price_recommend": 65,
+                    "price_without_peak_time_fee": 70
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 3682595,
+                "goods_volume": 0,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:23",
+                "price_expect": 65
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668068252,
+                "loading_time_period_end": 1668068852,
+                "id": 62935347,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:20更新",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068263,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "广东省佛山市南海区里水镇碧湖路佛山市南海区派固五金制品厂",
+                    "广东省广州市白云区三元里街道华园路38号大院"
+                ],
+                "price_addition": 10,
+                "to_location": {
+                    "address": "华园路38号大院",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.255914,
+                    "town": {
+                        "id": 440111002,
+                        "name": "三元里街道"
+                    },
+                    "latitude": 23.16347,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "速腾快递(里水河村分公司)",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.157859,
+                    "town": {
+                        "id": 440605100,
+                        "name": "里水镇"
+                    },
+                    "latitude": 23.16716,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 74,
+                    "price": 74,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 10,
+                    "price_recommend": 64,
+                    "price_without_peak_time_fee": 74
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 2812323,
+                "goods_volume": 0,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:27",
+                "price_expect": 64
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668067009,
+                "loading_time_period_end": 1668067609,
+                "id": 62933272,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "15:59更新",
+                "description": "要24小时核酸检测报告，120件货，要帮忙点数量和上下货",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668067022,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "江南市场(1号门)",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.227208,
+                    "town": {
+                        "id": 440111003,
+                        "name": "松洲街道"
+                    },
+                    "latitude": 23.172339,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山康乐园饼业仓库",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.123779,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.099934,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 64,
+                    "price": 64,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 64,
+                    "price_without_peak_time_fee": 64
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 3381908,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:06",
+                "price_expect": 64
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668052800,
+                "loading_time_period_end": 1668074400,
+                "id": 62934622,
+                "goods_weight": 0.8,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:17更新",
+                "description": "",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668067802,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "妙旺角生日蛋糕",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440105,
+                        "name": "海珠区"
+                    },
+                    "longitude": 113.292097,
+                    "town": {
+                        "id": 440105013,
+                        "name": "瑞宝街道"
+                    },
+                    "latitude": 23.067578,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "江夏公园",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.137339,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.106057,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 70,
+                    "price": 70,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 70,
+                    "price_without_peak_time_fee": 70
+                },
+                "status": 1,
+                "goods_name": "食品",
+                "is_booking": 0,
+                "user_id": 4084665,
+                "goods_volume": 0.8,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 12:00-18:00",
+                "price_expect": 70
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668009600,
+                "loading_time_period_end": 1668095940,
+                "id": 62935751,
+                "goods_weight": 0.2,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:21更新",
+                "description": "",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "已有会员洽谈中",
+                        "vip_type": 2,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 2,
+                "is_on_contact": 1,
+                "create_time": 1668068515,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "农夫石锅鱼(金盆中路店)",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.375525,
+                    "town": {
+                        "id": 440111108,
+                        "name": "钟落潭镇"
+                    },
+                    "latitude": 23.314212,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山市南海区迪迪钢化玻璃厂",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.101112,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.091527,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 122,
+                    "price": 122,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 122,
+                    "price_without_peak_time_fee": 122
+                },
+                "status": 1,
+                "goods_name": "玻璃",
+                "is_booking": 0,
+                "user_id": 4507791,
+                "goods_volume": 2,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 00:00-23:00",
+                "price_expect": 122
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668052800,
+                "loading_time_period_end": 1668074400,
+                "id": 62935806,
+                "goods_weight": 0.5,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:22下单",
+                "description": "布匹11条",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068542,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "鼎泰丰五金装饰材料城",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.291003,
+                    "town": {
+                        "id": 440111020,
+                        "name": ""
+                    },
+                    "latitude": 23.265834,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "志康电器",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.160442,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.121479,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 86,
+                    "price": 86,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 86,
+                    "price_without_peak_time_fee": 86
+                },
+                "status": 1,
+                "goods_name": "布匹11条",
+                "is_booking": 0,
+                "user_id": 6842045,
+                "goods_volume": 1,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 12:00-18:00",
+                "price_expect": 86
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668064157,
+                "loading_time_period_end": 1668064757,
+                "id": 62928021,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "15:11更新",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668064157,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "清水濠",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440104,
+                        "name": "越秀区"
+                    },
+                    "longitude": 113.27308,
+                    "town": {
+                        "id": 440104018,
+                        "name": "珠光街道"
+                    },
+                    "latitude": 23.120247,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "天悦家电",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.15411,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.104565,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 55,
+                    "price": 55,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 55,
+                    "price_without_peak_time_fee": 55
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 5161665,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 15:19",
+                "price_expect": 55
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668052800,
+                "loading_time_period_end": 1668074400,
+                "id": 62935614,
+                "goods_weight": 0.2,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:21更新",
+                "description": "",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "已有会员洽谈中",
+                        "vip_type": 2,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 1,
+                "create_time": 1668068437,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "广东省佛山市南海区大沥镇佛山市白虎五金工具有限公司",
+                    "广东省广州市番禺区大石街道工业二路3号番禺市天海电器厂"
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "广州峥豪服饰有限公司",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440113,
+                        "name": "番禺区"
+                    },
+                    "longitude": 113.3258,
+                    "town": {
+                        "id": 440113004,
+                        "name": "大石街道"
+                    },
+                    "latitude": 23.008985,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "佛山市白虎五金工具有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.166623,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.119953,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 80,
+                    "price": 80,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 80,
+                    "price_without_peak_time_fee": 80
+                },
+                "status": 1,
+                "goods_name": "建材",
+                "is_booking": 0,
+                "user_id": 6762509,
+                "goods_volume": 0.2,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 3,
+                "total_user_called": 1,
+                "carpool": 0,
+                "time": "预约今天 12:00-18:00",
+                "price_expect": 80
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668067038,
+                "loading_time_period_end": 1668067638,
+                "id": 62933308,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "15:59更新",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668067038,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "天元大厦(黄石西路)",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.25574,
+                    "town": {
+                        "id": 440111008,
+                        "name": "新市街道"
+                    },
+                    "latitude": 23.204684,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "中纺华丽布匹市场-北区",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.168686,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.108808,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 63,
+                    "price": 63,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 63,
+                    "price_without_peak_time_fee": 63
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 4824318,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:07",
+                "price_expect": 63
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668068307,
+                "loading_time_period_end": 1668068907,
+                "id": 62935460,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "16:21更新",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068346,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "广东省佛山市南海区大沥镇S15沈海高速广州支线凤秀岗工业区",
+                    "广东省广州市荔湾区石围塘街道五眼桥幼儿园"
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "五眼桥幼儿园",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440103,
+                        "name": "荔湾区"
+                    },
+                    "longitude": 113.21112,
+                    "town": {
+                        "id": 440103017,
+                        "name": "石围塘街道"
+                    },
+                    "latitude": 23.103317,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "广州姿姿袜业有限公司(佛山怡立纺织厂)",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.183947,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.144553,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 36,
+                    "price": 36,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 36,
+                    "price_without_peak_time_fee": 36
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 6631291,
+                "goods_volume": 0,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:28",
+                "price_expect": 36
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668069600,
+                "loading_time_period_end": 1668070800,
+                "id": 62934543,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "16:09下单",
+                "description": "",
+                "loading_time_is_realtime": 1,
+                "goods_level": 5,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668067760,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 5,
+                "on_the_ways": [
+                    "广东省佛山市南海区大沥镇泌一大道爱轩服饰有限公司",
+                    "广东省广州市白云区景泰街道楚潮饮食店"
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "宏顺货运中心",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.269905,
+                    "town": {
+                        "id": 440111004,
+                        "name": "景泰街道"
+                    },
+                    "latitude": 23.17535,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "三源百货",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.190951,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.139254,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 47,
+                    "price": 47,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 47,
+                    "price_without_peak_time_fee": 47
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 6800159,
+                "goods_volume": 0,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 17:00",
+                "price_expect": 47
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668067200,
+                "loading_time_period_end": 1668070800,
+                "id": 62935398,
+                "goods_weight": 0.5,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:21更新",
+                "description": "7个桶840公斤",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "已有会员洽谈中",
+                        "vip_type": 2,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 1,
+                "create_time": 1668068304,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "优派集团创新产业中心",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440607,
+                        "name": "三水区"
+                    },
+                    "longitude": 112.932755,
+                    "town": {
+                        "id": 440607101,
+                        "name": "大塘镇"
+                    },
+                    "latitude": 23.423014,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "美宜佳(百合嘉园粤13861店)",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440607,
+                        "name": "三水区"
+                    },
+                    "longitude": 113.017872,
+                    "town": {
+                        "id": 440607103,
+                        "name": "乐平镇"
+                    },
+                    "latitude": 23.232177,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 82,
+                    "price": 82,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 82,
+                    "price_without_peak_time_fee": 82
+                },
+                "status": 1,
+                "goods_name": "配件",
+                "is_booking": 0,
+                "user_id": 399138,
+                "goods_volume": 2,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 1,
+                "total_user_called": 1,
+                "carpool": 0,
+                "time": "预约今天 16:00-17:00",
+                "price_expect": 82
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668052800,
+                "loading_time_period_end": 1668074400,
+                "id": 62935518,
+                "goods_weight": 0.5,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "16:19下单",
+                "description": "",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068380,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "广东省佛山市南海区里水镇佛山市云企供应链管理有限公司安林电商物流园",
+                    "广东省广州市越秀区人民街道宾宾酒家人民南历史文化街区"
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "一鸣包装机械贸易部",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440104,
+                        "name": "越秀区"
+                    },
+                    "longitude": 113.254268,
+                    "town": {
+                        "id": 440104010,
+                        "name": "人民街道"
+                    },
+                    "latitude": 23.115174,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "广东万豪供应链管理有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.172241,
+                    "town": {
+                        "id": 440605100,
+                        "name": "里水镇"
+                    },
+                    "latitude": 23.234432,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 69,
+                    "price": 69,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 69,
+                    "price_without_peak_time_fee": 69
+                },
+                "status": 1,
+                "goods_name": "食品",
+                "is_booking": 0,
+                "user_id": 4737699,
+                "goods_volume": 2.5,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 12:00-18:00",
+                "price_expect": 69
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668063600,
+                "loading_time_period_end": 1668067200,
+                "id": 62931317,
+                "goods_weight": 0.1,
+                "is_rightnow": 0,
+                "vehicle_description": "小面包车",
+                "goods_create_time": "15:54更新",
+                "description": "",
+                "loading_time_is_realtime": 0,
+                "goods_level": 2,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668065885,
+                "is_show_guide_price": 1,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 2,
+                "on_the_ways": [
+                    "广东省广州市白云区石门街道鑫捷物流园",
+                    "广东省广州市荔湾区冲口街道四季花园力迅原筑"
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "四季花园",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440103,
+                        "name": "荔湾区"
+                    },
+                    "longitude": 113.232255,
+                    "town": {
+                        "id": 440103015,
+                        "name": "冲口街道"
+                    },
+                    "latitude": 23.071171,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "鑫捷物流园",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440111,
+                        "name": "白云区"
+                    },
+                    "longitude": 113.195475,
+                    "town": {
+                        "id": 440111019,
+                        "name": "石门街道"
+                    },
+                    "latitude": 23.223519,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 0,
+                    "price_type": 2,
+                    "is_phone_discuss": 0,
+                    "price_expect": 70,
+                    "price": 70,
+                    "is_prepaid": 0,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 70,
+                    "price_without_peak_time_fee": 70
+                },
+                "status": 1,
+                "goods_name": "建材",
+                "is_booking": 0,
+                "user_id": 2736809,
+                "goods_volume": 0.5,
+                "extra_requires": [
+                    {
+                        "content": "不需要装卸",
+                        "is_show_link": 0,
+                        "extra_item_id": 1
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 2
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 3
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 4
+                    },
+                    {
+                        "content": "0",
+                        "is_show_link": 0,
+                        "extra_item_id": 5
+                    }
+                ],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "预约今天 15:00-16:00",
+                "price_expect": 70
+            },
+            {
+                "is_vip_goods": 1,
+                "loading_time_period_begin": 1668068306,
+                "loading_time_period_end": 1668068906,
+                "id": 62935453,
+                "goods_weight": 0,
+                "is_rightnow": 1,
+                "vehicle_description": "微面包车",
+                "goods_create_time": "16:21更新",
+                "description": "鱼饲料20KG*5",
+                "loading_time_is_realtime": 1,
+                "goods_level": 4,
+                "is_phone_discuss": 0,
+                "mileage": "",
+                "score": [],
+                "sort_score": {},
+                "is_called": 0,
+                "vip_suggestion": {
+                    "params": {
+                        "prior_popup": "",
+                        "prior_title": "",
+                        "is_need_pop": 0,
+                        "is_prior_contact": 0,
+                        "prior_timer": 0,
+                        "title": "会员优先",
+                        "vip_type": 1,
+                        "prior_left_seconds": 0,
+                        "prior_app_end_time": 1668068576787
+                    },
+                    "type": "web",
+                    "page": ""
+                },
+                "haul_dist": 1,
+                "is_on_contact": 0,
+                "create_time": 1668068337,
+                "is_show_guide_price": 0,
+                "payment_method": 1,
+                "distance": 0,
+                "goods_type": 4,
+                "on_the_ways": [
+                    "",
+                    ""
+                ],
+                "price_addition": 0,
+                "to_location": {
+                    "address": "东联村联谊会",
+                    "city": {
+                        "id": 440100,
+                        "name": "广州市"
+                    },
+                    "county": {
+                        "id": 440103,
+                        "name": "荔湾区"
+                    },
+                    "longitude": 113.199073,
+                    "town": {
+                        "id": 440103020,
+                        "name": "海龙街道"
+                    },
+                    "latitude": 23.07832,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "from_location": {
+                    "address": "南海永和玩具制品有限公司",
+                    "city": {
+                        "id": 440600,
+                        "name": "佛山市"
+                    },
+                    "county": {
+                        "id": 440605,
+                        "name": "南海区"
+                    },
+                    "longitude": 113.204248,
+                    "town": {
+                        "id": 440605105,
+                        "name": "大沥镇"
+                    },
+                    "latitude": 23.0981,
+                    "province": {
+                        "id": 440000,
+                        "name": "广东省"
+                    }
+                },
+                "is_system_price": 1,
+                "price": {
+                    "bonus": 10,
+                    "price_type": 1,
+                    "is_phone_discuss": 0,
+                    "price_expect": 33,
+                    "price": 33,
+                    "is_prepaid": 1,
+                    "need_driver_deposit": 0,
+                    "peak_time_fee": 0,
+                    "price_addition": 0,
+                    "price_recommend": 33,
+                    "price_without_peak_time_fee": 33
+                },
+                "status": 1,
+                "goods_name": "",
+                "is_booking": 0,
+                "user_id": 3556445,
+                "goods_volume": 0,
+                "extra_requires": [],
+                "enabled_SXB": 0,
+                "total_called": 0,
+                "total_user_called": 0,
+                "carpool": 0,
+                "time": "即时用车 16:28",
+                "price_expect": 33
+            }
+        ],
+        "next": 0,
+        "parameters": true
+    }
+}

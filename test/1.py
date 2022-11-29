@@ -17,6 +17,8 @@ async def webs(ws,path):
         print("当前连接关闭")
 
 
+
+
 if __name__ == '__main__':
     start_server = websockets.serve(webs,"localhost",8888)
     loop = asyncio.get_event_loop()
